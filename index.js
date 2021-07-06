@@ -10,39 +10,26 @@ app.listen(process.env.PORT || port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
 
-// TODO Making Router in NodeJS
-// * root route
-app.get("/", (req, res) => {
-  res.send("HOME!");
-});
-
 const api_key = process.env.CLIENT_ID;
-const page = Math.floor(Math.random() * 1000);
-const limit = Math.floor(page / 10);
 
 // * route to newimage
-app.get("/newimagename", async (req, res) => {
+app.get("/newimagejson", async (req, res) => {
   const fetchApi = await fetch(
-    `https://api.unsplash.com/search/photos?page=${
-      page < 1000 ? page : limit
-    }&query=nature&client_id=${api_key}`
+    `https://api.unsplash.com/search/photos?query=retro&per_page=30&client_id=${api_key}`
   );
 
   /*
    * the fetch function return a javascript promise
    * that must be convert into json format
    */
-  const imageNameResponse = await fetchApi.json();
-  // console.log(imageNameResponse);
-  res.json(imageNameResponse);
+  const imageJsonResponse = await fetchApi.json();
+  res.json(imageJsonResponse);
 });
 
 // * route to downloadimage
 app.get("/downloadimage", async (req, res) => {
   const fetchApi = await fetch(
-    `https://api.unsplash.com/search/photos?page=${
-      page < 1000 ? page : limit
-    }&query=nature&client_id=${api_key}`
+    `https://api.unsplash.com/search/photos?query=retro&per_page=30&client_id=${api_key}`
   );
 
   /*
