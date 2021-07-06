@@ -1,0 +1,28 @@
+{
+  "name": "image-generator-from-api",
+  "version": "1.0.0",
+  "description": "Learn from Coder Coder (YT)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yossdev/image-generator-from-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yossdev/image-generator-from-api/issues"
+  },
+  "homepage": "https://github.com/yossdev/image-generator-from-api#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
