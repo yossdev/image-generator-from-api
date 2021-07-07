@@ -23,5 +23,5 @@ Learn from Coder Coder (YT)
 5. How to keep your API key secure using dotenv
 6. Style the website with CSS
 
-# Deployed using heroku
-[a link](https://yodev-retro-image-generator.herokuapp.com/)
+## Deployed using heroku
+[retro-image-generator](https://yodev-retro-image-generator.herokuapp.com/)
