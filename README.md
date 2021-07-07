@@ -22,3 +22,6 @@ Learn from Coder Coder (YT)
 4. Dynamically generate image tag using JavaScript
 5. How to keep your API key secure using dotenv
 6. Style the website with CSS
+
+# Deployed using heroku
+[a link](https://yodev-retro-image-generator.herokuapp.com/)
