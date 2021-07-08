@@ -4,15 +4,15 @@ Learn from Coder Coder (YT)
 
 See Demo: [retro-image-generator](https://yodev-retro-image-generator.herokuapp.com/)
 
-## Set-up:
+## Set-up
 
 - Setting up package.json
-- [nodemon.io] (https://nodemon.io/)
-- [Express.js] (https://expressjs.com/)
-- [dotenv] (https://www.npmjs.com/package/dotenv)
-- [node-fetch] (https://www.npmjs.com/package/node-fetch)
+- [nodemon.io](https://nodemon.io/)
+- [Express.js](https://expressjs.com/)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [node-fetch](https://www.npmjs.com/package/node-fetch)
 
-## APIs used:
+## APIs used
 
 - [UnsplashAPIs](https://unsplash.com/developers) Create an .env.local file on the root of the project and put your API key
 
