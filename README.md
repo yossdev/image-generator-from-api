@@ -7,10 +7,10 @@ See Demo: [retro-image-generator](https://yodev-retro-image-generator.herokuapp.
 ## Set-up:
 
 - Setting up package.json
-- nodemon.io
-- Express.js
-- dotenv
-- node-fetch
+- [nodemon.io] (https://nodemon.io/)
+- [Express.js] (https://expressjs.com/)
+- [dotenv] (https://www.npmjs.com/package/dotenv)
+- [node-fetch] (https://www.npmjs.com/package/node-fetch)
 
 ## APIs used:
 
