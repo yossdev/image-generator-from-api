@@ -2,6 +2,8 @@
 
 Learn from Coder Coder (YT)
 
+See Demo: [retro-image-generator](https://yodev-retro-image-generator.herokuapp.com/)
+
 ## Set-up:
 
 - Setting up package.json
@@ -12,7 +14,23 @@ Learn from Coder Coder (YT)
 
 ## APIs used:
 
-- Unsplash image collection - UnsplashAPIs
+- [UnsplashAPIs](https://unsplash.com/developers) Create an .env.local file on the root of the project and put your API key
+
+```
+CLIENT_ID=your_api_key_here
+```
+
+## Running Locally
+
+You must have your own API from Unsplased
+
+```
+$ git clone https://github.com/yossdev/image-generator-from-api.git
+$ cd image-generator-from-api
+$ npm run dev
+```
+
+Your app should now be running on localhost:3000.
 
 ## TODO
 
@@ -23,5 +41,10 @@ Learn from Coder Coder (YT)
 5. How to keep your API key secure using dotenv
 6. Style the website with CSS
 
-## Deployed using heroku
-[retro-image-generator](https://yodev-retro-image-generator.herokuapp.com/)
+## Deploying to Heroku
+
+```
+$ heroku create
+$ git push heroku master
+$ heroku open
+```
